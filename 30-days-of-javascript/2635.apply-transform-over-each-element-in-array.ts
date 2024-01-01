@@ -6,6 +6,8 @@ function map(arr: number[], fn: (n: number, i: number) => number): number[] {
   }
 
   return result;
+  // optimized solution?
+  // return arr.map(fn);
 };
 
 const result = map([1, 2, 3, 4, 5], (n) => n * 2);
